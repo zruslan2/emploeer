@@ -115,6 +115,8 @@
     <ClInclude Include="Employee.h" />
     <ClInclude Include="HR_manager.h" />
     <ClInclude Include="Human.h" />
+    <ClInclude Include="Organization.h" />
+    <ClInclude Include="OrganizationConsole.h" />
     <ClInclude Include="Proger.h" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +125,9 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="HR_manager.cpp" />
     <ClCompile Include="Human.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Organization.cpp" />
+    <ClCompile Include="OrganizationConsole.cpp" />
     <ClCompile Include="Proger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
